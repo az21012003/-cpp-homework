@@ -10,10 +10,10 @@ int doubleArray(int arr[], int size){
 int main() {
 	setlocale(LC_ALL, "Russian");	
     int arr[5] = {1, 2, 3, 4, 5};
-    cout << " Èñõîäíûé ìàññèâ: ";                
+    cout << " Ð˜ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";                
     for (int x: arr)
     	cout << x << " ";
-    cout << endl << "Óäâîåííûé ìàññèâ: ";
+    cout << endl << "Ð£Ð´Ð²Ð¾ÐµÐ½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";
 	doubleArray(arr, 5);
     for (int x: arr)
     	cout << x << " ";
