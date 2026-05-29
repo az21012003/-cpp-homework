@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL, "Russian");   // Русский в консоли
 	cout << "Введите имя " << endl;
 	string s;
 	cin >> s;
