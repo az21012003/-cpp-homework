@@ -4,8 +4,8 @@ using namespace std;
 #include <clocale>
 int main() {
 	setlocale(LC_ALL, "Russian");
-	cout << "Ââåäèòå ÷èñëî" << "\n";
-	string s;                            // Ðåøåíèå ÷/ç ñòðîêó
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾" << "\n";
+	string s;                            // Ð ÐµÑˆÐµÐ½Ð¸Ðµ Ñ‡/Ð· ÑÑ‚Ñ€Ð¾ÐºÑƒ
     cin >> s;
     bool prov; 
     int result = 0;
