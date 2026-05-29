@@ -5,8 +5,8 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "Russian");
     double pi = 3.14, r, S;  
-    cout << "Ââåäèòå ðàäèóñ" << "\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð´Ð¸ÑƒÑ" << "\n";
     cin >> r;
     S = pi * r * r;
-    cout << "Ïëîùàäü êðóãà " << S << "\n";
+    cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ ÐºÑ€ÑƒÐ³Ð° " << S << "\n";
 }
