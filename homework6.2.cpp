@@ -6,7 +6,7 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	int matrix[2][2];
 	srand(time(NULL));
-	cout << "ýëåìåíòû ìàññèâà: " << "\n";
+	cout << "ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << "\n";
     for (int i = 0; i < 2; i++) {
          for (int j = 0; j < 2; j++) {
 		     matrix[i][j] = (1 + rand()) % 10;
@@ -14,7 +14,7 @@ int main() {
 		 }
 		 cout << endl;
     }
-    cout << "ãëàâíàÿ äèàãîíàëü: " << "\n";
+    cout << "Ð³Ð»Ð°Ð²Ð½Ð°Ñ Ð´Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»ÑŒ: " << "\n";
     for (int i = 0; i < 2; i++) { 
         cout << matrix[i][i] << " ";
     }
