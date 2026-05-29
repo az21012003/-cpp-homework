@@ -8,9 +8,9 @@ int SummOfThree(int a, int b, int c){
 int main() 
 {
 	setlocale(LC_ALL, "Russian");	
-    cout << "Ââåäèòå ÷èñëà ÷åðåç ïðîáåë" << "\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð° Ñ‡ÐµÑ€ÐµÐ· Ð¿Ñ€Ð¾Ð±ÐµÐ»" << "\n";
     int a, b, c;
     cin >> a >> b >> c;
     int result = SummOfThree(a, b, c);  
-    cout << "Îòâåò: " << result;
+    cout << "ÐžÑ‚Ð²ÐµÑ‚: " << result;
 }
