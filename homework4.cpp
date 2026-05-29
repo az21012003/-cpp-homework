@@ -7,13 +7,13 @@ int main()
 	setlocale(LC_ALL, "Russian");
     char symbol, symbolNext;   
     int b, c;
-    cout << "ââåäèòå ñèìâîë" << "\n";
+    cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»" << "\n";
     cin >> symbol;
     b = symbol;
     c = b + 1;
     symbolNext = c;
-    cout << "Ñèìâîë: " << symbol << "\n";
-    cout << "Íîìåð: " << b << "\n";
-    cout << "Íîìåð ñëåäóþùåãî ñèìâîëà: " << c << "\n";
-    cout << "Ñëåäóþùèé ñèìâîë: " << symbolNext << "\n";
+    cout << "Ð¡Ð¸Ð¼Ð²Ð¾Ð»: " << symbol << "\n";
+    cout << "ÐÐ¾Ð¼ÐµÑ€: " << b << "\n";
+    cout << "ÐÐ¾Ð¼ÐµÑ€ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐ³Ð¾ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð°: " << c << "\n";
+    cout << "Ð¡Ð»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»: " << symbolNext << "\n";
 }
