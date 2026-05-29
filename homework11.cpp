@@ -4,10 +4,10 @@ using namespace std;
 #include <clocale>
 int main() {
 	setlocale(LC_ALL, "Russian");
-    cout << "Введите число: ";
+    cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ";
     string s;
     cin >> s;
-    s.append(" ");                           // Защита от ошибки обращения к несуществуещему элементу
+    s.append(" ");                           // Р—Р°С‰РёС‚Р° РѕС‚ РѕС€РёР±РєРё РѕР±СЂР°С‰РµРЅРёСЏ Рє РЅРµСЃСѓС‰РµСЃС‚РІСѓРµС‰РµРјСѓ СЌР»РµРјРµРЅС‚Сѓ
     int result = 0;
     for (int i = 0; i < s.length() - 1; i++){
         if (s[i] == 'M')
@@ -31,5 +31,5 @@ int main() {
         else if (s[i] == 'I')
            result += 1;   	   	
 	}
-	cout << "Число: " << result;
+	cout << "Р§РёСЃР»Рѕ: " << result;
 }
