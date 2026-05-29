@@ -10,39 +10,41 @@ class Student{
 		
 	public:
 	 Student(){
-	     name = "неизвестно";
+	     name = "РЅРµРёР·РІРµСЃС‚РЅРѕ";
 	     age = 0;
 	     score = 0;
 	}
 	Student(string Name, int Age, double Score)
 	     : name(Name), age(Age), score(Score) {
-		 cout << "Данные для " << name << " введены " << endl;
+		 cout << "Р”Р°РЅРЅС‹Рµ РґР»СЏ " << name << " РІРІРµРґРµРЅС‹ " << endl;
 		 }
      
 	 void setName (string Name){name = Name;}
      void setAge (int Age){age = Age;}
      void setScore (double Score){score = Score;}
-     string getName () {cout << "Имя: " << name << endl;}
-     int getAge (){cout <<"Возраст: "<< age << endl;}
-     double getScore (){cout << "Средний балл: " << score << endl;}
+     string getName () {cout << "РРјСЏ: " << name << endl;}
+     int getAge (){cout <<"Р’РѕР·СЂР°СЃС‚: "<< age << endl;}
+     double getScore (){cout << "РЎСЂРµРґРЅРёР№ Р±Р°Р»Р»: " << score << endl;}
 	 
 	 bool IsAdult(){
 	 	return(age >= 18);
 	 }
 	 
 	 void show(){
-	 	cout << "Имя: " << name << endl <<"Возраст: "<< age << endl <<"Средний балл: " << score << endl << "Совершеннолетний: ";
+	 	cout << "РРјСЏ: " << name << endl <<"Р’РѕР·СЂР°СЃС‚: "<< age << endl <<"РЎСЂРµРґРЅРёР№ Р±Р°Р»Р»: " << score << endl << "РЎРѕРІРµСЂС€РµРЅРЅРѕР»РµС‚РЅРёР№: ";
 		if (age > 17)
-		   cout << "да" << endl;
+		   cout << "РґР°" << endl;
 		else 
-		   cout << "нет" << endl;
+		   cout << "РЅРµС‚" << endl;
 	 }
 	 
 	 void UpdateScore(double delta){score += delta;}
 };
 int main() {
     setlocale(LC_ALL, "Russian");
-    Student Ivan("Иван", 19, 4.8);
+    Student Ivan("РРІР°РЅ", 19, 4.8);
     Ivan.UpdateScore(-0.7);
+    Ivan.show();
+}
     Ivan.show();
 }
